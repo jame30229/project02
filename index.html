@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
-<title>W3.CSS Template</title>
+<title>Rong-Chang Restaurant</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="w3.css">
-<link rel="stylesheet" href="css.css">
+<link rel="stylesheet" href="css\w3.css">
+<link rel="stylesheet" href="css\css.css">
 <style>
 body, html {
     height: 100%;
@@ -13,8 +13,8 @@ body, html {
 .bgimg {
     background-position: center;
     background-size: cover;
-    background-image: url("bgimage.jpg");
-    min-height: 75%;
+    background-image: url("img/bgimage.jpg");
+    min-height: 85%;
 }
 .menu {
     display: none;
@@ -32,7 +32,7 @@ body, html {
       <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
     </div>
     <div class="w3-col s3">
-      <a href="#menu" class="w3-button w3-block w3-black">MENU</a>
+      <a href="#menu" class="w3-button w3-block w3-black">RESTAURANT</a>
     </div>
     <div class="w3-col s3">
       <a href="#where" class="w3-button w3-block w3-black">WHERE</a>
@@ -40,16 +40,16 @@ body, html {
   </div>
 </div>
 
-<!-- Header with image -->
+<!-- Header with image -->t
 <header class="bgimg w3-display-container w3-grayscale-min" id="home">
   <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
-    <span class="w3-tag">Open from 6.30 am to 12.00 pm</span>
+    <span class="w3-tag">Open from 6.30am to 8.30pm</span>
   </div>
   <div class="w3-display-middle w3-center">
-    <span class="w3-text-black" style="font-size:90px">The Rong Cheng<br>Restaurant</span>
+    <span class="w3-padding w3-black w3-opacity-min w3-text-white" style="font-size:58px">Rong-Chang Restaurant</span>
   </div>
-  <div class="w3-display-bottomright w3-center w3-padding-large">
-    <span class="w3-text-white">Phet Kasem Road 7,Hatyai 90110</span>
+  <div class="w3-display-bottomright w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Phet Kasem Road 7, Hatyai 90110</span>
   </div>
 </header>
 
@@ -60,15 +60,12 @@ body, html {
 <div class="w3-container" id="about">
   <div class="w3-content" style="max-width:700px">
     <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT THE RESTAURANT</span></h5>
-    <p>The Cafe was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-    <p>In addition to our full espresso and brew bar menu, we serve fresh made-to-order breakfast and lunch sandwiches, as well as a selection of sides and salads and other good stuff.</p>
+    <p>This restaurant is located in the Prince of Songkla University,<br>there are many restaurants.</p>
     <div class="w3-panel w3-leftbar w3-light-grey">
-      <p><i>"Use products from nature for what it's worth - but never too early, nor too late." Fresh is the new sweet.</i></p>
-      <p>Chef, Coffeeist and Owner: Liam Brown</p>
+      <p><i>There is food and drink, economical price for students.</i></p>
     </div>
-    <img src="coffeeshop.jpg" style="width:100%;max-width:1000px" class="w3-margin-top">
-    <p><strong>Opening hours:</strong> everyday from 6am to 5pm.</p>
-    <p><strong>Address:</strong> 15 Adr street, 5015, NY</p>
+    <p><strong>Opening hours:</strong> everyday from 6.30am to 8.30pm.</p>
+    <p><strong>Address:</strong> Phet Kasem Road 7, Hatyai 90110, SKA</p>
   </div>
 </div>
 
@@ -76,7 +73,7 @@ body, html {
 <div class="w3-container" id="menu">
   <div class="w3-content" style="max-width:700px">
  
-    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE MENU</span></h5>
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE RESTAURANT</span></h5>
   
     <div class="w3-row w3-center w3-card-2 w3-padding">
       <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
@@ -88,8 +85,8 @@ body, html {
     </div>
 
     <div id="Eat" class="w3-container menu w3-padding-48 w3-card-2">
-      <h5>Bread Basket</h5>
-      <p class="w3-text-grey">Assortment of fresh baked fruit breads and muffins 5.50</p><br>
+      <a href ="indexpage06.html"><h5>Chom Phu</h5></a>
+      <p class="w3-text-grey">About rice and curry, cooked to order.</p><br>
     
       <h5>Honey Almond Granola with Fruits</h5>
       <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
@@ -105,8 +102,8 @@ body, html {
     </div>
 
     <div id="Drinks" class="w3-container menu w3-padding-48 w3-card-2">
-      <h5>Coffee</h5>
-      <p class="w3-text-grey">Regular coffee 2.50</p><br>
+      <a href ="indexpage01.html"><h5>Natee Sri Trang</h5></a>
+      <p class="w3-text-grey">About Juice, Iced tea, Iced coffee</p><br>
     
       <h5>Chocolato</h5>
       <p class="w3-text-grey">Chocolate espresso with milk 4.50</p><br>
@@ -120,30 +117,23 @@ body, html {
       <h5>Soda</h5>
       <p class="w3-text-grey">Coke, Sprite, Fanta, etc. 2.50</p>
     </div>  
-    <img src="coffeehouse2.jpg" style="width:100%;max-width:1000px;margin-top:32px;">
   </div>
 </div>
 
 <!-- Contact/Area Container -->
     <div class="w3-container" id="where" style="padding-bottom:32px;">
   <div class="w3-content" style="max-width:700px">
-    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WHERE TO FIND US</span></h5>
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WHERE TO FIND</span></h5>
     <p>Find us at some address at some place.</p>
-      
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.0027434475037!2d100.4968628648654!3d7.008958744937061!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304d29a43ac0c921%3A0xd710eee0fecb1be1!2z4Lio4Li54LiZ4Lii4LmM4Lit4Liy4Lir4Liy4LijIOC5guC4o-C4h-C4iuC5ieC4suC4hyDguKEu4LitLuC4q-C4suC4lOC5g-C4q-C4jeC5iA!5e0!3m2!1sth!2sth!4v1491626654294" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-    <p><span class="w3-tag">FYI!</span> We offer full-service catering for any event, large or small. We understand your needs and we will cater the food to satisfy the biggerst criteria of them all, both look and taste.</p>
-    <p><strong>Reserve</strong> a table, ask for today's special or just send us a message:</p>
-    <form action="/action_page.php" target="_blank">
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Name" required name="Name"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="number" placeholder="How many people" required name="People"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="datetime-local" placeholder="Date and time" required name="date" value="2017-11-16T20:00"></p>
-      <p><input class="w3-input w3-padding-16 w3-border" type="text" placeholder="Message \ Special requirements" required name="Message"></p>
-      <p><button class="w3-button w3-black" type="submit">SEND MESSAGE</button></p>
-    </form>
+      <div class ="w3-center">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.9799873508277!2d100.49728254995628!3d7.011636294910281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304d29a43ac0c921%3A0xd710eee0fecb1be1!2z4Lio4Li54LiZ4Lii4LmM4Lit4Liy4Lir4Liy4LijIOC5guC4o-C4h-C4iuC5ieC4suC4hyDguKEu4LitLuC4q-C4suC4lOC5g-C4q-C4jeC5iA!5e0!3m2!1sth!2sth!4v1493296441430" width="700" height="400" frameborder="0" style="border:0" allowfullscreen></iframe></div>
   </div>
 
+<!-- End page content -->
+</div>
+  
 <!-- Footer -->
-<footer class="w3-center w3-light-grey w3-padding-48 w3-large">
+<footer class="w3-center w3-black w3-padding-48 w3-large">
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>
 
@@ -158,13 +148,11 @@ function myMap()
     mapTypeId:google.maps.MapTypeId.ROADMAP
   };
   var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
-
   var marker = new google.maps.Marker({
     position: myCenter,
   });
   marker.setMap(map);
 }
-
 // Tabbed Menu
 function openMenu(evt, menuName) {
   var i, x, tablinks;

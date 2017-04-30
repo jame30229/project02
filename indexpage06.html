@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<title>Chom-Phu Restaurant</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css\w3.css">
+<link rel="stylesheet" href="css\css.css">
+<style>
+body, html {
+    height: 100%;
+    font-family: "Inconsolata", sans-serif;
+}
+.bgimg {
+    background-position: center;
+    background-size: cover;
+    background-image: url("img/bgimage.jpg");
+    min-height: 85%;
+}
+.menu {
+    display: none;
+}
+</style>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-padding w3-black">
+    <div class="w3-col s3">
+      <a href="index.html" class="w3-button w3-block w3-black">HOME</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block w3-black">ABOUT</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#menu" class="w3-button w3-block w3-black">MENU</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#where" class="w3-button w3-block w3-black">WHERE</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header with image -->
+<header class="bgimg w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Open from 6.30am to 8.30pm</span>
+  </div>
+  <div class="w3-display-middle w3-center">
+    <span class="w3-padding w3-black w3-opacity-min w3-text-white" style="font-size:58px">Rong-Chang Restaurant</span>
+  </div>
+  <div class="w3-display-bottomright w3-center w3-padding-large w3-hide-small">
+    <span class="w3-tag">Phet Kasem Road 7, Hatyai 90110</span>
+  </div>
+</header>
+
+<!-- Add a background color and large text to the whole page -->
+<div class="w3-sand w3-grayscale w3-large">
+
+<!-- About Container -->
+<div class="w3-container" id="about">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-64"><span class="w3-tag w3-wide">ABOUT CHOM PHU</span></h5>
+    <p>This restaurant is located in the Prince of Songkla University,<br>there are many restaurants.</p>
+    <div class="w3-panel w3-leftbar w3-light-grey">
+      <p><i>There is food, economical price for students.</i></p>
+    </div>
+	<img src="img/chomphu_00.jpg" style="width:100%;max-width:1000px" alt="Chom Phu image" class="w3-margin-top">
+    <p><strong>Opening hours:</strong> everyday from 6.30am to 8.30pm.</p>
+    <p><strong>Address:</strong> Phet Kasem Road 7, Hatyai 90110, SKA</p>
+  </div>
+</div>
+
+<!-- Menu Container -->
+<div class="w3-container" id="menu">
+  <div class="w3-content" style="max-width:700px">
+ 
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE MENU</span></h5>
+	<p>Please click the buttom menu, when your want see the menu.
+	<button onclick="document.getElementById('menu01').style.display='block'" class="w3-button w3-black">MENU</button></p>
+	
+<!-- Menu Modal -->
+<div id="menu01" class="w3-modal">
+  <div class="w3-modal-content w3-animate-zoom">
+    <div class="w3-container w3-black w3-display-container">
+      <span onclick="document.getElementById('menu01').style.display='none'" class="w3-button w3-display-topright w3-large">x</span>
+      <h1>Many Viand</h1>
+    </div>
+    <div class="w3-container">
+      <h5>One <b>20฿</b></h5>
+      <h5>Two <b>25฿</b></h5>
+      <h5>Three <b>30฿</b></h5>
+    </div>
+    <div class="w3-container w3-black">
+      <h1>Menu</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Iced tea <b>10฿</b></h5>
+      <h5>Roselle juice <b>8฿</b></h5>
+      <h5>Coconut juice <b>8฿</b></h5>
+      <h5>Orange juice <b>10฿</b></h5>
+      <h5>Jasmine tea <b>8฿</b></h5>
+    </div>
+    <div class="w3-container w3-black">
+      <h1>Other</h1>
+    </div>
+    <div class="w3-container">
+      <h5>Fruit Salad <b>$2.50</b></h5>
+      <h5>Ice cream <b>$2.00</b></h5>
+      <h5>Chocolate Cake <b>$4.00</b></h5>
+      <h5>Cheese <b>$5.50</b></h5>
+    </div>
+  </div>
+</div>
+</div>	
+</div>
+
+<!-- Contact/Area Container -->
+    <div class="w3-container" id="where" style="padding-bottom:32px;">
+  <div class="w3-content" style="max-width:700px">
+    <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">WHERE TO FIND</span></h5>
+    <p>Find us at some address at some place.</p>
+      <div class ="w3-center">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3959.9799873508277!2d100.49728254995628!3d7.011636294910281!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x304d29a43ac0c921%3A0xd710eee0fecb1be1!2z4Lio4Li54LiZ4Lii4LmM4Lit4Liy4Lir4Liy4LijIOC5guC4o-C4h-C4iuC5ieC4suC4hyDguKEu4LitLuC4q-C4suC4lOC5g-C4q-C4jeC5iA!5e0!3m2!1sth!2sth!4v1493296441430" width="700" height="400" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+  </div>
+
+<!-- End page content -->
+</div> 
+  
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-48 w3-large">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+<!-- Add Google Maps -->
+<script>
+function myMap()
+{
+  myCenter=new google.maps.LatLng(41.878114, -87.629798);
+  var mapOptions= {
+    center:myCenter,
+    zoom:12, scrollwheel: false, draggable: false,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
+  var marker = new google.maps.Marker({
+    position: myCenter,
+  });
+  marker.setMap(map);
+}
+// Tabbed Menu
+function openMenu(evt, menuName) {
+  var i, x, tablinks;
+  x = document.getElementsByClassName("menu");
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablink");
+  for (i = 0; i < x.length; i++) {
+     tablinks[i].className = tablinks[i].className.replace(" w3-dark-grey", "");
+  }
+  document.getElementById(menuName).style.display = "block";
+  evt.currentTarget.firstElementChild.className += " w3-dark-grey";
+}
+document.getElementById("myLink").click();
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+</body>
+</html>
