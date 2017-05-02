@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
+<head>
 <title>Rong-Chang Restaurant</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="img/favicon.ico" type="image/x-icon">
 <link rel="stylesheet" href="css\w3.css">
 <link rel="stylesheet" href="css\css.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
 <style>
+#home {
+	font-family: "Allerta Stencil", sans-serif;
+}
 body, html {
     height: 100%;
     font-family: "Inconsolata", sans-serif;
@@ -20,6 +26,7 @@ body, html {
     display: none;
 }
 </style>
+</head>
 <body>
 
 <!-- Links (sit on top) -->
@@ -40,13 +47,13 @@ body, html {
   </div>
 </div>
 
-<!-- Header with image -->t
+<!-- Header with image -->
 <header class="bgimg w3-display-container" id="home">
   <div class="w3-display-bottomleft w3-center w3-padding-large w3-hide-small">
     <span class="w3-tag">Open from 6.30am to 8.30pm</span>
   </div>
   <div class="w3-display-middle w3-center">
-    <span class="w3-padding w3-black w3-opacity-min w3-text-white" style="font-size:58px">Rong-Chang Restaurant</span>
+    <span class="w3-padding w3-black w3-opacity-min w3-text-white" style="font-size:53px"><i>Rong-Chang Restaurant</i></span>
   </div>
   <div class="w3-display-bottomright w3-center w3-padding-large w3-hide-small">
     <span class="w3-tag">Phet Kasem Road 7, Hatyai 90110</span>
@@ -64,6 +71,12 @@ body, html {
     <div class="w3-panel w3-leftbar w3-light-grey">
       <p><i>There is food and drink, economical price for students.</i></p>
     </div>
+	<p>About 38 years ago, the city was far from Hat Yai town.
+	Students want Restaurant in the morning It has caused "Rong-Chang".
+	By raising the pillars with a zinc roof, look like elephant house.
+	There are coffe shop and snack shop, Have students and staff sip coffee, tea and food.
+	But now the atmosphere is gone.
+	It became a big cafeteria, namely "Rong-Chang Restaurant"</p>
     <p><strong>Opening hours:</strong> everyday from 6.30am to 8.30pm.</p>
     <p><strong>Address:</strong> Phet Kasem Road 7, Hatyai 90110, SKA</p>
   </div>
@@ -76,46 +89,46 @@ body, html {
     <h5 class="w3-center w3-padding-48"><span class="w3-tag w3-wide">THE RESTAURANT</span></h5>
   
     <div class="w3-row w3-center w3-card-2 w3-padding">
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Eat');" id="myLink">
-        <div class="w3-col s6 tablink">Eat</div>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'One');" id="myLink">
+        <div class="w3-col s6 tablink">One</div>
       </a>
-      <a href="javascript:void(0)" onclick="openMenu(event, 'Drinks');">
-        <div class="w3-col s6 tablink">Drink</div>
+      <a href="javascript:void(0)" onclick="openMenu(event, 'Two');">
+        <div class="w3-col s6 tablink">Two</div>
       </a>
     </div>
 
-    <div id="Eat" class="w3-container menu w3-padding-48 w3-card-2">
+    <div id="One" class="w3-container menu w3-padding-48 w3-card-2">
       <a href ="indexpage01.html"><h5>Chom-Phu</h5></a>
-      <p class="w3-text-grey">About rice and curry, cooked to order.</p><br>
+      <p class="w3-text-grey">About Rice and curry, Cooked to order.</p><br>
     
-      <h5>Honey Almond Granola with Fruits</h5>
-      <p class="w3-text-grey">Natural cereal of honey toasted oats, raisins, almonds and dates 7.00</p><br>
+      <a href ="indexpage02.html"><h5>Kai-Ouan</h5></a>
+      <p class="w3-text-grey">About Chicken menu.</p><br>
     
-      <h5>Belgian Waffle</h5>
-      <p class="w3-text-grey">Vanilla flavored batter with malted flour 7.50</p><br>
+      <a href ="indexpage03.html"><h5>Ta-Ko-Pang</h5></a>
+      <p class="w3-text-grey">About Japanese food.</p><br>
     
-      <h5>Scrambled eggs</h5>
-      <p class="w3-text-grey">Scrambled eggs, roasted red pepper and garlic, with green onions 7.50</p><br>
+      <a href ="indexpage04.html"><h5>Mang-Korn-Thong</h5></a>
+      <p class="w3-text-grey">About Cooked to order.</p><br>
     
-      <h5>Blueberry Pancakes</h5>
-      <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p>
+      <a href ="indexpage05.html"><h5>Sing-Ha</h5></a>
+      <p class="w3-text-grey">About Cooked to order.</p>
     </div>
 
-    <div id="Drinks" class="w3-container menu w3-padding-48 w3-card-2">
+    <div id="Two" class="w3-container menu w3-padding-48 w3-card-2">
       <a href ="indexpage06.html"><h5>Natee-Sri-Trang</h5></a>
-      <p class="w3-text-grey">About Juice, Iced tea, Iced coffee</p><br>
+      <p class="w3-text-grey">About Juice, Iced tea, Iced coffee.</p><br>
     
-      <h5>Chocolato</h5>
-      <p class="w3-text-grey">Chocolate espresso with milk 4.50</p><br>
+      <a href ="indexpage07.html"><h5>Lung-Khom</h5></a>
+      <p class="w3-text-grey">About Beverage, Juice, Ice cream.</p><br>
     
-      <h5>Corretto</h5>
-      <p class="w3-text-grey">Whiskey and coffee 5.00</p><br>
+      <a href ="indexpage08.html"><h5>Fruity</h5></a>
+      <p class="w3-text-grey">About Fruit.</p><br>
     
-      <h5>Iced tea</h5>
-      <p class="w3-text-grey">Hot tea, except not hot 3.00</p><br>
+      <a href ="indexpage09.html"><h5>Muslim-Lukchin-Halal</h5></a>
+      <p class="w3-text-grey">About Meatballs.</p><br>
     
-      <h5>Soda</h5>
-      <p class="w3-text-grey">Coke, Sprite, Fanta, etc. 2.50</p>
+      <a href ="indexpage10.html"><h5>Yim-La-Mai</h5></a>
+      <p class="w3-text-grey">About Beverage.</p>
     </div>  
   </div>
 </div>
@@ -137,22 +150,8 @@ body, html {
   <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
 </footer>
 
-<!-- Add Google Maps -->
+<!-- Tabbed Menu -->
 <script>
-function myMap()
-{
-  myCenter=new google.maps.LatLng(41.878114, -87.629798);
-  var mapOptions= {
-    center:myCenter,
-    zoom:12, scrollwheel: false, draggable: false,
-    mapTypeId:google.maps.MapTypeId.ROADMAP
-  };
-  var map=new google.maps.Map(document.getElementById("googleMap"),mapOptions);
-  var marker = new google.maps.Marker({
-    position: myCenter,
-  });
-  marker.setMap(map);
-}
 // Tabbed Menu
 function openMenu(evt, menuName) {
   var i, x, tablinks;
@@ -169,11 +168,6 @@ function openMenu(evt, menuName) {
 }
 document.getElementById("myLink").click();
 </script>
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBu-916DdpKAjTmJNIgngS6HL_kDIKU0aU&callback=myMap"></script>
-<!--
-To use this code on your website, get a free API key from Google.
-Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
--->
 
 </body>
 </html>
